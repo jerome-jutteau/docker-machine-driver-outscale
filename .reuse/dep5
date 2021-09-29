@@ -1,0 +1,18 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: docker-machine-driver-outscale
+Upstream-Contact: Outscale support <support@outscale.com>
+Source: https://gitlab.com/outscale-dev/docker-machine-driver-outscale/
+
+Files: README.md reuse_test.sh
+Copyright: 2021 Outscale SAS <support@outscale.com>
+License: BSD-3-Clause
+
+Files: Makefile main.go go.sum go.mod .goreleaser.yaml .gitignore .goreleaser.yml
+Copyright: 2015 TH
+Copyright: 2021 Outscale SAS <support@outscale.com>
+License: MIT
+
+Files: pkg/drivers/outscale/*
+Copyright: 2014 Docker, Inc.
+Copyright: 2021 Outscale SAS <support@outscale.com>
+License: Apache-2.0
